@@ -87,3 +87,5 @@ puts users["Erik"][:home_town]
 #
 # puts["Erik"][:pets]
 # 10. Add another person to the users hash
+users["Oscar"] = ""
+puts users
