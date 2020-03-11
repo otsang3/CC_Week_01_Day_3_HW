@@ -30,3 +30,6 @@ puts return_falkirk_high(stops, "Falkirk High")
 #9. Reverse the positions of the stops in the array
 puts stops.reverse()
 #10 Print out all the stops using a for loop
+for stop in stops
+  puts stop
+end
