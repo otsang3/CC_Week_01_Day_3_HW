@@ -10,8 +10,9 @@ stops.insert(4, "Polmont")
 puts stops.find_index("Linlithgow")
 #5. Remove "Livingston" from the array using its name
 stops.delete("Linlithgow")
-puts stops
 #6. Delete "Cumbernauld" from the array by index
+stops.delete_at(2)
+puts stops
 #7. Print the number of stops there are in the array?
 #8. Show as many ways as you can to return "Falkirk High" from the array?
 #9. Reverse the positions of the stops in the array
