@@ -6,8 +6,8 @@ stops.push("Edinburgh Waverly")
 stops.unshift("Glasgow Queen St")
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
 stops.insert(4, "Polmont")
-puts stops
 #4. Print out the index position of "Linlithgow"
+puts stops[5]
 #5. Remove "Livingston" from the array using its name
 #6. Delete "Cumbernauld" from the array by index
 #7. Print the number of stops there are in the array?
