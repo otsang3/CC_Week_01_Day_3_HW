@@ -65,7 +65,19 @@ puts users["Erik"][:lottery_numbers]
 # 5. Get the smallest of Erik's lottery numbers
 puts users["Erik"][:lottery_numbers].min
 # 6. Return an array of Avril's lottery numbers that are even
+# def odd_values(array_name, name, lottery_numbers)
+#   for odd_numbers_in_array in lottery_numbers
+#     if lottery_numbers %2 == 0
+#       puts odd_numbers_in_array
+#     end
+#   end
+# end
+#
+# odd_values(users, "Erik", :lottery_numbers)
+
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+users["Erik"][:lottery_numbers] = 7
+puts users["Erik"][:lottery_numbers]
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "Fluffy"
 # 10. Add another person to the users hash
