@@ -82,4 +82,8 @@ puts users["Erik"][:lottery_numbers]
 users["Erik"][:home_town] = "Edinburgh"
 puts users["Erik"][:home_town]
 # 9. Add a pet dog to Erik called "Fluffy"
+# users["Erik"][:pets][:name] = "Fluffy"
+# users["Erik"][:pets][:species] = "dog"
+#
+# puts["Erik"][:pets]
 # 10. Add another person to the users hash
