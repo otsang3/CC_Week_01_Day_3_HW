@@ -61,7 +61,7 @@ puts users["Erik"][:home_town]
 # 3. Get the array of Erik's lottery numbers
 puts users["Erik"][:lottery_numbers]
 # 4. Get the species of Avril's pet Monty
-# puts users["Avril"][:pets]
+puts users["Avril"][:pets][0][:species]
 # 5. Get the smallest of Erik's lottery numbers
 puts users["Erik"][:lottery_numbers].min
 # 6. Return an array of Avril's lottery numbers that are even
@@ -82,8 +82,8 @@ puts users["Erik"][:lottery_numbers]
 users["Erik"][:home_town] = "Edinburgh"
 puts users["Erik"][:home_town]
 # 9. Add a pet dog to Erik called "Fluffy"
-# users["Erik"][:pets][:name] = "Fluffy"
-# users["Erik"][:pets][:species] = "dog"
+# users["Erik"][:pets].push(:name = "Fluffy")
+# users["Erik"][:pets].push(:species = "dog")
 #
 # puts["Erik"][:pets]
 # 10. Add another person to the users hash
